@@ -75,3 +75,11 @@ select * from employees order by salary limit 10 offset 5;
 select employee_id,first_name,salary*12 as annual_salary from employees;
 
 select * from employees;
+
+select * from employees where (department_id,manager_id) not in ((60,103),(80,149),(110,101));
+
+select concat(last_name,"'s salary is Rs.",salary) as details from employees;
+
+select salary/30 as daily_salary from employees;
+
+select concat(first_name,' ',last_name) as full_name from employees;
