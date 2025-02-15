@@ -1,0 +1,25 @@
+ER in DBMS
+ER(Entity relation models)
+--------------------------------------------------------------
+1.Entity: customer,product,order
+2.Attribute: customer_id,name,product_id,product_name,order_id,order_date
+3.Relationship: one to one, one to many, many to many, many to one
+--------------------------------------------------------------
+Entity:
+1.Strong entity: customer,product,order 
+2.Weak entity: customer_vehicle,family_member
+--------------------------------------------------------------
+Attribute:
+1.Key attribute: customer_id,product_id,order_id
+2.Composite attribute: customer_name,product_name
+3.Multivalued attribute: customer_phone,product_color
+4.Derived attribute: customer_age,product_price
+--------------------------------------------------------------
+Shapes :
+1.Rectangle: Entity
+2.Oval: Attribute
+3.Diamond: Relationship
+4.Double oval: Multivalued attribute
+5.Double rectangle: Weak entity
+6.line : Relationship
+--------------------------------------------------------------
